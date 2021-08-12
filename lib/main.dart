@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:use_getx/dialog_cls.dart';
 import 'package:use_getx/snackbar_cls.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'GetX Library',
-      home: SnackBarCls(),
+      home: DialogCls(),
     );
   }
 }

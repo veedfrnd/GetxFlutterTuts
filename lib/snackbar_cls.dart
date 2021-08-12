@@ -74,7 +74,7 @@ class SnackBarCls extends StatelessWidget {
                   ),*/
                 ); // SnackBar
               },
-              child: Text('Click On Me'),
+              child: Text('Show SnackBar'),
             )
           ],
         ),
